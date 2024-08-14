@@ -1,0 +1,223 @@
+@font-face {
+    font-family: font1;
+    src: url(./helveticaneue-medium.woff2);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(./l.woff2);
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #151414;
+
+}
+
+.page1 {
+    width: 100%;
+    min-height: 110vh;
+    color: #F3C77C;
+    font-size: 20vw;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    align-items: center;
+    font-family: "Anton", sans-serif;
+    position: relative;
+}
+
+.page1 h4 {
+    position: absolute;
+    font-size: 2.3vw;
+    top: 92%;
+    text-align: center;
+    font-weight: 100;
+    font-family: font1;
+}
+
+
+
+nav {
+    font-size: 0.79vw;
+    font-weight: 100;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25%;
+    padding-bottom: 45%;
+    position: absolute;
+    left: 61%;
+    top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.page1 h2 {
+    font-weight: 900;
+    color: #ebcb96;
+
+}
+
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 50px; */
+    /* overflow-y: hidden; */
+    position: relative;
+
+}
+
+
+.page2 video {
+    width: 20%;
+    /* height: 110%; */
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+}
+
+
+
+.page3 {
+    width: 100%;
+    height: 120vh;
+    /* color: #ebcb96; */
+    color: rgba(231, 207, 177);
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* font-size: 5.9vw; */
+    font-size: 6.5vw;
+    text-align: left;
+    font-family: font1;
+    line-height: 20vh;
+    position: relative;
+    white-space: nowrap;
+}
+
+.page3 span {
+    font-family: font2;
+    font-weight: 100;
+}
+
+.page3 .box1 {
+    width: 100%;
+    height: 12vw;
+    top: 20%;
+    /* background-color: red; */
+    position: absolute;
+    overflow: hidden;
+}
+
+.page3 .box1 h1 {
+    position: absolute;
+    left: 6%;
+    /* top: 100%; */
+
+}
+
+
+
+.page3 .box1:nth-child(2) {
+    width: 100%;
+    height: 12vw;
+    top: 38%;
+    left: 0%;
+    /* background-color: red; */
+    position: absolute;
+    overflow: hidden;
+}
+
+/* .page3 .box1 h1 {
+    position: absolute;
+    left: 5%;
+
+} */
+
+.page3 .box1:nth-child(3) {
+    width: 100%;
+    height: 15vw;
+    top: 60%;
+    left: 22%;
+    /* background-color: red; */
+    position: absolute;
+    overflow: hidden;
+}
+
+/* .page3 .box1 h1 {
+    position: absolute;
+    left: 8%;
+
+} */
+
+.page3 .box1:nth-child(4) {
+    width: 70%;
+    height: 15vw;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+/* .page3 .box1 h1 {
+    position: absolute;
+    left: 6%;
+
+} */
+
+.page3 p{
+    position: absolute;
+    top: 87%;
+    right: 4%;
+    font-size: 1.2vw;
+    line-height: 25px;
+}
+
+
+.page4 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.page4 svg {
+    position: absolute;
+    right: 9%;
+    top: 35%;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
